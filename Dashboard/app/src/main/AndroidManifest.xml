@@ -6,6 +6,7 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
@@ -21,6 +22,15 @@
         <activity
             android:name=".PhoneActivity"
             android:label="@string/title_activity_phone"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.job94_000.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MessageActivity"
+            android:label="@string/title_activity_message"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
