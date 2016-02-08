@@ -5,5 +5,6 @@ an overview for common apps (such as mail/phone/messages/maps).
 However due to time issues (only this week) it is only really some 
 views for me to get accustomed with AndroidStudio. 
 
-PS: There is a issue with the memory usage of the images, which I 
+PS: It is made for the Nexus 7 view, since I own that device
+PS2: There is a issue with the memory usage of the images, which I 
 have not been able the resolve yet.
